@@ -1,409 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Women's Voice</title>
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <header>
+    <header id="up">
         <nav>
             <div class="container">
-                <ul class="menu">
-                    <li class="menu__item menu_now"><a href="index.html" class="menu__link">Main</a></li>
-                    <li class="menu__item"><a href="pages/stat.html" class="menu__link">Statistics</a></li>
-                    <li class="menu__item"><a href="pages/help.html" class="menu__link">Help</a></li>
-                    <li class="menu__item1"><a href="pages/write.html" class="menu__link">Write</a></li>
-                </ul>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="header__wrapper">
+                    <a href="#" class="header__name">swise.kz</a>
+                    <div class="header__lang">
+                        <div class="header__lang__item"><a href="">ru</a></div>
+                        <div class="header__lang__item"><a href="">kz</a></div>
+                        <div class="header__lang__item"><a href="">en</a></div>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="subheader">
             <div class="container">
-                <div class="row">
-                    <div class=" col-sm-6 col-6 col-md-4 offset-md-1">
-                        <a href="index.html" class="subheader__logo"><img src="icons/logo.png" alt=""><div class="subheader__name go-hidden">women's voice</div></a>
-                        
+                <div class="subheader__wrapper">
+                    <div class="subheader__icon">
+                        <img src="icons/Ресурс 2.svg" alt="лого" class="subheader__logo">
                     </div>
-    
-                    <div class="col-6 col-sm-6 col-md-4 offset-md-2 col-xl-4 offset-xl-2">
-                        <div class="subheader__call">HELPLINE</div>
-                        <a href="tel:87772255326" class="subheader__phone">8 (777) 225-53-26</a>
-                    </div>
+                    <button class="btn btn_subheader" data-modal="call">заказать звонок</button>
                 </div>
             </div>
         </div>
     </header>
 
     <section class="main">
-        <div class="container">
-            <h1 class="main__title">women's voice</h1>
-            <h2 class="main__slogan">Take a dare, Disturb the silence</h2>
-            <a href="pages/write.html"><button class="main__btn">Write us your story</button></a>
+        <div class="main__wrapper">
+            <div class="main__text">
+                <h1 class="main__title">Изучайте английский <br><span>онлайн</span> вместе с</h1>
+                <h2 class="main__subtitle">SWISE.KZ</h2>
+            </div>
+            <div class="main__img">
+                <img src="img/main.png" alt="" class="main__pic">
+            </div>
         </div>
     </section>
 
-    <section class="trust">
+
+    <div class="quotes animate__animated animate__fadeInUp wow" data-wow-delay="0.5s" data-wow-duration="1s">
+        &quot; Карантин показал, что традиционная форма обучения устарела &quot;
+    </div>
+
+    <section class="reasons">
         <div class="container">
-            <div class="label">Trust us</div>
-            <h2 class="title">The silence is not a solution</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_1">
-                            <div class="trust__item__subtitle">It is anonymous</div>
-                        </div>
+            <h2 class="reasons__title">Почему вы должны обучаться у нас?</h2>
+            <div class="reasons__wrapper">
+                <div class="reasons__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.7s"
+                    data-wow-duration="1s">
+                    <div class="reasons__img">
+                        <img src="icons/teacher-3.png" alt="" class="reasons__icon">
                     </div>
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_2">
-                            <div class="trust__item__subtitle">Psychologist will help you </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_3">
-                            <div class="trust__item__subtitle">Your story may help others</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_4">
-                            <div class="trust__item__subtitle">overcome your fear</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_5">
-                            <div class="trust__item__subtitle">be among the first</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="trust__item trust__item_6">
-                            <div class="trust__item__subtitle">become an example for others</div>
-                        </div>
-                    </div>
+                    <div class="reasons__subtitle">Молодые и амбициозные учителя</div>
+                    <div class="reasons__descr">Наши учителя - призеры и участники <span>республиканских</span>
+                        олимпиад, набирали <span>IELTS 6.5 и выше</span></div>
+                    <a href="#team"><button class="btn btn_reasons">Посмотреть достижения учителей</button></a>
                 </div>
-        </div>
-    </section>
-
-    <section class="map">
-        <div class="container">
-            <div class="label">Statistics</div>
-            <h2 class="title">We can change it together</h2>
-            <a href="pages/stat.html" class="map__link">watch full Statistics</a>
-        </div>
-    </section>
-
-    <section class="creators">
-        <div class="container">
-            <div class="label">Creators</div>
-            <h2 class="title">We are against the domestic violence</h2>
-            <div class="row">
-                <div class="col-md-5 offset-md-1 ">
-                    <div class="creators__wrapper">
-                        <div class="creators__round"></div>
-                        <div class="creators__name">Kazbek Sultanahmet</div>
-                        <div class="creators__subtitle">front-end devoloper</div>
-                        <div class="creators__descr">
-                            <ul class="creators__list">
-                                <li class="creators__item">18 years old</li>
-                                <li class="creators__item">Hometown is Oskemen city</li>
-                                <li class="creators__item">1st year student of IITU</li>
-                                <li class="creators__item">Used HTML and CSS to create this website</li>
-                            </ul>
-                        </div>
+                <div class="reasons__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.8s"
+                    data-wow-duration="1.1s">
+                    <div class="reasons__img">
+                        <img src="icons/reason_3.png" alt="" class="reasons__icon">
                     </div>
+                    <div class="reasons__subtitle">Лучшая цена на рынке</div>
+                    <div class="reasons__descr">У нас самая <span>лучшая цена</span> в Казахстане, но если вы нашли дешевле и качественее, мы сделаем вам <span>скидку</span></div>
+                    <a href="#"><button class="btn btn_reasons">Связаться и получить скидку</button></a>
                 </div>
-                <div class="col-md-5 ">
-                    <div class="creators__wrapper">
-                        <div class="creators__round1"></div>
-                        <div class="creators__name">Kanikhan Dauren</div>
-                        <div class="creators__subtitle">back-end devoloper</div>
-                        <div class="creators__descr">
-                            <ul class="creators__list">
-                                <li class="creators__item">His age is 18</li>
-                                <li class="creators__item">Living in Almaty city now</li>
-                                <li class="creators__item">Almost ended 1st year of university</li>
-                                <li class="creators__item">Used JavaScript and JQuery to create this website</li>
-                            </ul>
-                        </div>
+                <div class="reasons__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.9s"
+                    data-wow-duration="1.2s">
+                    <div class="reasons__img">
+                        <img src="icons/reason3.png" alt="" class="reasons__icon">
                     </div>
+                    <div class="reasons__subtitle">Подарки и бонусы от нас</div>
+                    <div class="reasons__descr">Первый урок <span>бесплатный</span>, где мы поможем определить ваш
+                        уровень, а так же все учебные материалы <span>за наш счет</span></div>
+                    <button class="btn btn_reasons" data-modal="call">записаться на бесплатный урок</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="covid">
-        <div class="container">
-            <div class="label">covid-19</div>
-            <h2 class="title">Causes of global pandemic and quarantine</h2>
-            <div class="row covid_pad">
-                <div class="col-md-6 col-lg-4">
-                    <div class="covid__hov">
-                        <img src="../img/covid/virus1.png" alt="" class="covid__img">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 covid_hidden">
-                    <div class="covid__hov ">
-                        <img src="../img/covid/virus2.png" alt="" class="covid__img">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="covid__hov">
-                        <img src="../img/covid/virus3.png" alt="" class="covid__img">
-                    </div>
-                </div>
-            </div>
-            <p class="covid__text">The lockdown was supposed to save lifes, but ironically, it hurts some lives. The current lockdown correlates with the increase in domestic violence cases in Kazakhstan as well as in the World.</p>
-            <p class="covid__text">Constant routine under the same roof augmented the tension between partners, leading them to more arguements some of which end up tragically.</p>
-        </div>
-    </section>
-    <section class="global">
-        <div class="container">
-            <div class="label">Global</div>
-            <h2 class="title">Statistics of the world</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">35%</div>
-                        <div class="global__descr">of women suffer from domestic violence and sexual harassment</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">30%</div>
-                        <div class="global__descr">of women in relationship at least once suffered from domestic violence</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">42%</div>
-                        <div class="global__descr">of women who suffered from domestic violence have been physically injured</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">38%</div>
-                        <div class="global__descr">of women homicides were commmited by their partners</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">3x</div>
-                        <div class="global__descr">increased cases of domestic violence in the birthplace of Covid-19 </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">45%</div>
-                        <div class="global__descr">increased number of domestic violence during qurantine in Brasil, however earlier the numbers were very high too</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">30%</div>
-                        <div class="global__descr">French policemen are reporting about increasment of domestic violence cases</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="global__block">
-                        <div class="global__round">20%</div>
-                        <div class="global__descr">Many cities have reported about increasment in cases of violence inside their own apartments in Great Britain</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="kz">
-        <div class="container">
-            <div class="label">kazakhstan</div>
-            <h2 class="title">Statistics of our country</h2>
-            <div class="kz__descr">Top 5 regions of Kazakhstan in percentage of women caused by domestic violence</div>
-            <div class="kz__stat">
-                <div class="kz__stat1">
-                    <div class="kz__sko1"></div>
-                    <div class="kz__sko2"></div>
-                </div>
-                <div class="kz__stat2">
-                    <div class="kz__vko1"></div>
-                    <div class="kz__vko2"></div>
-                </div>
-                <div class="kz__stat3">
-                    <div class="kz__yko1"></div>
-                    <div class="kz__yko2"></div>
-                </div>
-                <div class="kz__stat4">
-                    <div class="kz__ako1"></div>
-                    <div class="kz__ako2"></div>
-                </div>
-                <div class="kz__stat5">
-                    <div class="kz__qko1"></div>
-                    <div class="kz__qko2"></div>
-                </div>
-            </div>
-            <div class="kz__names">
-                <div class="kz__item">SKR</div>
-                <div class="kz__item">EKR</div>
-                <div class="kz__item">NKR</div>
-                <div class="kz__item">Alm</div>
-                <div class="kz__item">Qos</div>
-            </div>
-            <div class="row">
-                <div class="col-6"><div class="kz__col1">during all life</div></div>
-                <div class="col-6"><div class="kz__col2">last 12 mounth</div></div>
-            </div>
-            <div class="kz__map"></div>
-            <div class="kz__full">Full statistics by regions</div>
-        </div>
-    </section>
-
-    <section class="problems">
-        <div class="container">
-            <div class="label">problems</div>
-            <h2 class="title">why victims endure for a long time?</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="problems__img problems__img_1"></div>
-                    <div class="problems__title">mentality</div>
-                    <div class="problems__descr">Many women keep silence, because they afraid of what others, relatives, society will think and consider that it is a shame</div>
-                </div>
-                <div class="col-md-4">
-                    <div class="problems__img problems__img_2"></div>
-                    <div class="problems__title">Police and law</div>
-                    <div class="problems__descr">Women does not relly on police and law, because many policemens are males and often they don't even listen to the family problems</div>
-                </div>
-                <div class="col-md-4">
-                    <div class="problems__img problems__img_3"></div>
-                    <div class="problems__title">effects</div>
-                    <div class="problems__descr">Womens are afraid of what will happen, if they fail with their rescue plan</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="steps">
-        <div class="container">
-            <div class="label">steps</div>
-            <h2 class="title">What to do?</h2>
-            <div class="row">
-                <div class="col-md-3 steps__wrapper">
-                    <div class="steps__num">1.</div>
-                    <div class="steps__title">write <br> application</div>
-                    <div class="steps__descr steps_hidden">Call to police or write application using <a href="https://qamqor.gov.kz">qamqor.gov.kz</a>, you should ask police to come</div>
-                    <button class="steps__btn steps_hidden"><a href="tel:102">call police</a></button>
-                </div>
-                <div class="steps_line"></div>
-                <div class="col-md-3 steps__wrapper">
-                    <div class="steps__num">2.</div>
-                    <div class="steps__title">call <br> ambulance</div>
-                    <div class="steps__descr steps_hidden">In case you are injured call ambulance and get a referral from a police officer for a forensic examination</div>
-                    <button class="steps__btn steps_hidden"><a href="tel:103">call ambulance</a></button>
-                </div>
-                <div class="steps_line"></div>
-                <div class="col-md-3 steps__wrapper">
-                    <div class="steps__num">3.</div>
-                    <div class="steps__title">settle in <br> crisis center</div>
-                    <div class="steps__descr steps_hidden">Call helpline and get adress of crisis center in your city, then go there</div>
-                    <button class="steps__btn steps_hidden"><a href="tel:87772255326">call helpline</a></button>
-                </div>
-                <div class="steps_line"></div>
-                <div class="col-md-3 steps__wrapper">
-                    <div class="steps__num">4.</div>
-                    <div class="steps__title">write us <br> your story</div>
-                    <div class="steps__descr steps_hidden">Write us your story. It is anonymous, phsychologist will help you and your story can help others</div>
-                    <button class="steps__btn steps_hidden"><a href="write.html">write us</a></button>
-                </div>
-                <div class="steps_line"></div>
-            </div>
-        </div>
-    </section>
-    <section class="story">
-        <div class="container">
-            <div class="label">stories</div>
-            <h2 class="title">Inspire and get answers form anothers stories</h2>
-            <div class="story__anon story__anon_1">Hello! My story is...</div>
-            <div class="story__help story__help_1">Hi! I have read your story and i recommend you...</div>
-            <div class="story__anon story__anon_2">Hello! Last week my husband...</div>
-            <div class="story__help story__help_2">Hello! It is very sad, I think you should...</div>
-        </div>
-    </section>
-
-    
-    <section class="animation">
-        <div class="container">
-            <div class="animation__wrapper">
-                <div class="animation__txt">
-                    Write us your story...
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="type">
         <div class="container">
-            <div class="type__wrapper">
+            <div class="type__wrapper animate__animated animate__fadeInRight wow" data-wow-delay="0.7s"
+                data-wow-duration="0.6s">
                 <div class="type__img">
 
                 </div>
                 <div class="type__form">
-                    <div class="type__title">
-                        Greate chance to start new life
-                    </div>
-                    <div class="type__subtitle">
-                        Overcome your fears and help others
-                    </div>
-                    <form action="" class="type__write">
-                        <textarea name="input" class="type__input" placeholder="It is anonymous"></textarea>
-                        <button type="submit" class="type__btn">I am disturbing silence</button>
+                    <h2 class="type__title">
+                        Оставьте заявку на <br> бесплатный урок
+                    </h2>
+                    <h3 class="type__subtitle">
+                        Наш менеджер свяжется с вами
+                    </h3>
+                    <form class="feed-form" action="#" id="call-form">
+                        <h4 class="type__item">Как нам вас называть:</h4>
+                        <input name="name" type="text" placeholder="Ваше имя">
+                        <h4 class="type__item">Куда нам звонить:</h4>
+                        <input name="phone" placeholder="Ваш телефон">
+                        <h4 class="type__item">Куда высылать информацию:</h4>
+                        <input name="email" type="email" placeholder="Ваш E-mail">
+                        <button class="btn btn_submit">записаться на урок</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <section class="lessons">
         <div class="container">
-            <div class="footer_divider"></div>
-        <div class="footer_wrapper">
-            <div>
-                <div class="footer_social">
-                    <a href="https://facebook.com" class="footer_social_item">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://vk.com" class="footer_social_item">
-                        <i class="fab fa-vk"></i>
-                    </a>
-                    <a href="https://wa.me/77081060810" class="footer_social_item">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="https://instagram.com" class="footer_social_item">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
+            <div class="lessons__section animate__animated animate__fadeInLeft wow" data-wow-delay="0.7s"
+                data-wow-duration="1s">
+                <div class="lessons__img"></div>
+                <div class="lessons__descr">Уроки проходят онлайн через сервисы Discord/Skype/Zoom</div>
             </div>
-            <div>
-                <div class="footer_links">
-                    <div class="footer_links_main">
-                        <a href="index.html">main</a>
-                        <a href="pages/stat.html">Statistics</a>
-                        <a href="pages/help.html">help</a>
-                        <a href="pages/write.html">write</a>
+            <div class="lessons__section animate__animated animate__fadeInRight wow" data-wow-delay="0.9s"
+                data-wow-duration="1.2s">
+                <div class="lessons__descr">Если у вашего ребенка урок, <br> вы можете периодически проверять процесс</div>
+                <div class="lessons__img"></div>
+            </div>
+            <div class="lessons__section animate__animated animate__fadeInLeft wow" data-wow-delay="1.1s"
+                data-wow-duration="1.4s">
+                <div class="lessons__img1"></div>
+                <div class="lessons__descr1">Каждый урок разбираем популярные песни и фильмы</div>
+            </div>
+            <div class="lessons__section animate__animated animate__fadeInRight wow" data-wow-delay="1.3s"
+                data-wow-duration="1.6s">
+                <div class="lessons__descr1">В конце каждого месяца вас ждут приятные сюрпризы</div>
+                <div class="lessons__img1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <h2 class="reasons__title" id="team">Наша команда и учителя</h2>
+            <div class="corousel">
+                <div class="team__member">
+                    <div class="team__wrapper">
+                        <div class="team__img"></div>
+                        <div class="team__descr">
+                            <div class="team__name">Ansagan Nurm</div>
+                            <div class="team__who">Teacher</div>
+                            <ul class="team__list">
+                                <li class="team__item">красава</li>
+                                <li class="team__item">Орик</li>
+                                <li class="team__item">красава</li>
+                                <li class="team__item">красава</li>
+                            </ul>
+                            <div class="team__social">
+                                <div class="team__media"><i class="fab fa-whatsapp"></i></div>
+                                <div class="team__media"><i class="fab fa-vk vk"></i></div>
+                                <div class="team__media"><i class="fab fa-instagram"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footer_links_lang">&copy; women's voice all rights reserved 2020</div>
+                </div>
+                <div class="team__member">
+                    <div class="team__wrapper">
+                        <div class="team__img"></div>
+                        <div class="team__descr">
+                            <div class="team__name">Ansagan Nurm</div>
+                            <div class="team__who">Teacher</div>
+                            <ul class="team__list">
+                                <li class="team__item">красава</li>
+                                <li class="team__item">Орик</li>
+                                <li class="team__item">красава</li>
+                                <li class="team__item">красава</li>
+                            </ul>
+                            <div class="team__social">
+                                <div class="team__media"><i class="fab fa-whatsapp"></i></div>
+                                <div class="team__media"><i class="fab fa-vk vk"></i></div>
+                                <div class="team__media"><i class="fab fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__member">
+                    <div class="team__wrapper">
+                        <div class="team__img"></div>
+                        <div class="team__descr">
+                            <div class="team__name">Ansagan Nurm</div>
+                            <div class="team__who">Teacher</div>
+                            <ul class="team__list">
+                                <li class="team__item">красава</li>
+                                <li class="team__item">Орик</li>
+                                <li class="team__item">красава</li>
+                                <li class="team__item">красава</li>
+                            </ul>
+                            <div class="team__social">
+                                <div class="team__media"><i class="fab fa-whatsapp"></i></div>
+                                <div class="team__media"><i class="fab fa-vk vk"></i></div>
+                                <div class="team__media"><i class="fab fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__member">
+                    <div class="team__wrapper">
+                        <div class="team__img"></div>
+                        <div class="team__descr">
+                            <div class="team__name">Ansagan Nurm</div>
+                            <div class="team__who">Teacher</div>
+                            <ul class="team__list">
+                                <li class="team__item">красава</li>
+                                <li class="team__item">Орик</li>
+                                <li class="team__item">красава</li>
+                                <li class="team__item">красава</li>
+                            </ul>
+                            <div class="team__social">
+                                <div class="team__media"><i class="fab fa-whatsapp"></i></div>
+                                <div class="team__media"><i class="fab fa-vk vk"></i></div>
+                                <div class="team__media"><i class="fab fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div><img src="icons/Ресурс 2.svg" alt="img" class="footer__img"></div>
+                
+                <div class="footer__almaty">&copy;Almaty , 2020</div>
+                <div class="footer__social" id="#social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fab fa-whatsapp"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fab fa-vk vk"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fab fa-instagram"></span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div>
-                <a href="pages/login.html" class="log">Log in</a>
-                <a href="pages/signup.html" class="log">Sign up</a>
+
+        </div>
+
+
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="call">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">
+                Оставьте заявку на <br> бесплатный урок
+            </div>
+            <div class="modal__descr">
+                и мы свяжемся с вами
+            </div>
+            <form class="feed-form feed-form_modal" action="#">
+                <h4 class="type__item type__item_modal">Как нам вас называть:</h4>
+                <input name="name" type="text" placeholder="Ваше имя">
+                <h4 class="type__item type__item_modal">Куда нам звонить:</h4>
+                <input name="phone" placeholder="Ваш телефон">
+                <h4 class="type__item type__item_modal">Куда высылать информацию:</h4>
+                <input name="email" type="email" placeholder="Ваш E-mail">
+                <button class="btn btn_modal">записаться на урок</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close" id="close">&times;</div>
+            <div class="modal__subtitle">
+                Спасибо за вашу заявку!
+            </div>
+            <div class="modal__descr modal__descr_mini">
+                Наш менеджер свяжется с вами в ближайшее время
             </div>
         </div>
-        </div>
-    </footer>
+    </div>
+    <a href="#up"><img src="icons/chevron-circle-up-solid.svg" alt="" class="chevron animate__animated animate__bounce">
+    </a>
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
